@@ -1,0 +1,17 @@
+--Requisitos--
+- Angular 12
+- Laravel 8
+
+1. Crear la base de datos: 'sintad'
+2. Hacer las migraciones: php artisan migrate
+3. Ejecutar el script SQL que adjunto. Contiene los datos.
+4. Hacer un POST al siguiente endpoint para registrar a un usuario.
+
+http://localhost:8000/api/auth/register
+
+Usar parámetros de tipo form-data en el cuerpo de la petición:
+- email
+- password 
+- name (opcional)
+
+5. Logearse en la interfaz web.
